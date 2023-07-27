@@ -11,33 +11,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
-      # - name: Install pnpm
-      #   uses: pnpm/action-setup@v2
-      #   with:
-      #     version: 8
+      # Use pnpm instead of npm
+      - name: Install pnpm
+        run: npm install -g pnpm@6
 
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm
+          cache: pnpm # Use pnpm cache
 
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: build
         env:
           BASE_PATH: '/Portfolio'
         run: |
-          npm run build
+          pnpm run build
           touch build/.nojekyll
 
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
-          # this should match the `pages` option in your adapter-static options
-          path: 'build/'
+          name: site
+          path: build/
 
   deploy:
     needs: build_site
