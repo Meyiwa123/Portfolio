@@ -1,0 +1,68 @@
+{
+    "projects": [
+        {
+            "name": "Facility Management System",
+            "description": "Streamline and optimize business management with our comprehensive web app.",
+            "thumbnailImage": "png/reyon.png",
+            "thumbnailScale": "0.45",
+            "url": "https://reyongroup.com/",
+            "language": "python"
+        },
+        {
+            "name": "On-Demand and Long-Range Passenger Transport UAV",
+            "description": "Discover the future of autonomous air travel with our precision-landing VTOL Unmanned Aerial Systems.",
+            "thumbnailImage": "png/blackbird.png",
+            "thumbnailScale": "0.3",
+            "url": "https://carleton.ca/mae/2023/good-news-blackbird-uav-team-wins-at-14th-annual-aerial-evolution-association-of-canada-aeac-national-student-competition-2022-2023/",
+            "language": "python"
+        },
+        {
+            "name": "MangaVerse",
+            "description": "Explore a cutting-edge manga website, offering a diverse collection of captivating stories and stunning artwork for manga enthusiasts.",
+            "thumbnailImage": "png/manga.png",
+            "thumbnailScale": "0.5",
+            "url": "https://github.com/Meyiwa123/MangaVerse",
+            "language": "svelte"
+        },
+        {
+            "name": "LIDAR Grid Visualizer",
+            "description": "Effortlessly transform LIDAR measurements into an accurate occupancy grid map using our Python implementation.",
+            "thumbnailImage": "png/lidar.png",
+            "thumbnailScale": "0.65",
+            "url": "https://github.com/Meyiwa123/LIDAR-Grid-Visualizer",
+            "language": "python"
+        },
+        {
+            "name": "Building Elevator Control System",
+            "description": "An advanced elevator control system that efficiently manages vertical transportation, ensuring smooth, safe, and timely movements between floors.",
+            "thumbnailImage": "png/elevator_system.png",
+            "thumbnailScale": "0.5",
+            "url": "https://github.com/Meyiwa123/Elevator-Control-System-and-Simulation",
+            "language": "java"
+        },
+        {
+            "name": "MSP432P401R Timer & Interrupt",
+            "description": "Discover MSP432P401R's LED brilliance! Witness precise timer and interrupt programming as LEDs blink and change colors with captivating precision.",
+            "thumbnailImage": "png/rtos.png",
+            "thumbnailScale": "0.5",
+            "url": "https://github.com/Meyiwa123/Embedded-System-LED-Blinking",
+            "language": "Embedded c"
+        },
+        {
+            "name": "Scrabble Game",
+            "description": "Unleash your word power in the classic Scrabble game! Strategically build words on the board, score big, and challenge friends or AI opponents. Become a word champion now!",
+            "thumbnailImage": "png/scrabble.png",
+            "thumbnailScale": "0.2",
+            "url": "https://github.com/charles-55/ScrabbleGame",
+            "language": "java"
+        },
+        {
+            "name": "Personal Portfolio",
+            "description": "A showcase of my projects and skills.",
+            "thumbnailImage": "png/portfolio.png",
+            "thumbnailScale": "0.35",
+            "url": "https://github.com/charles-55/Portfolio",
+            "language": "svelte"
+        }
+    ]
+}

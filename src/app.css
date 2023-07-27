@@ -1,0 +1,107 @@
+@import "@fontsource/jetbrains-mono/300.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/jetbrains-mono/600.css";
+@import "@fontsource/jetbrains-mono/700.css";
+@import "@fontsource/jetbrains-mono/800.css";
+
+:root {
+    font-family: "JetBrains Mono", Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+
+    --background-primary: #1d1d1d;
+    --background-secondary: rgb(49, 49, 49);
+    --accent-primary: #0578f0;
+    --accent-secondary: #0060c7;
+    --text-primary: #ffffff;
+    --text-secondary: #ffffff83;
+
+    --fsize-title: 68px;
+    --fsize-text-heading: 26px;
+    --fsize-text-subheading: 22px;
+    --fsize-text-body: 17px;
+    --fsize-text-small: 14px;
+
+    --accent-pink: #c53b70;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary);
+}
+
+canvas {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+}
+
+p,
+ul,
+li,
+h1 {
+    margin: 0;
+    padding: 0;
+    color: var(--text-primary);
+}
+
+a {
+    font-family: "JetBrains Mono";
+    color: var(--accent-primary);
+    transition: 250ms;
+}
+
+a:hover {
+    color: var(--accent-secondary);
+}
+
+.button {
+    padding: 15px 30px;
+    font-family: "JetBrains Mono";
+    font-size: var(--fsize-text-body);
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: var(--text-primary);
+    background-color: var(--accent-primary);
+    border: none;
+    outline: none;
+    transform: skew(-8deg);
+    transition: 250ms;
+}
+
+.button {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: var(--text-primary);
+    background-color: var(--accent-secondary);
+    transform: skew(-12deg);
+}
+
+@media only screen and (max-width: 800px) {
+    :root {
+        --fsize-title: 65px;
+    }
+
+    button {
+        transform: none;
+    }
+
+    button:hover {
+        transform: none;
+    }
+}

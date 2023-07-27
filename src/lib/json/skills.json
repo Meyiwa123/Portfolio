@@ -1,0 +1,50 @@
+{
+    "skills": [
+        {
+            "name": "Programming & Software Development",
+            "knowledgeLevel": 85,
+            "labels": [
+                "c",
+                "python",
+                "java",
+                "git",
+                "bash",
+                "intellij",
+                "vscode"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "knowledgeLevel": 60,
+            "labels": [
+                "html",
+                "css",
+                "javascript",
+                "typescript",
+                "svelte"
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "knowledgeLevel": 80,
+            "labels": [
+                "spring",
+                "database Integration",
+                "junit",
+                "swagger",
+                "docker",
+                "prometheus"
+            ]
+        },
+        {
+            "name": "Robotics & Automation",
+            "knowledgeLevel": 75,
+            "labels": [
+                "arduino",
+                "raspberry pi",
+                "opencv",
+                "tensorflow"
+            ]
+        }
+    ]
+}
