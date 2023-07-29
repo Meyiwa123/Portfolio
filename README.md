@@ -1,5 +1,5 @@
 #  Hi!👋🏿 I'm
-![Meyiwa Temile]('./src/assets/png/logo.png')
+![Meyiwa Temile](https://github.com/Meyiwa123/Portfolio/blob/main/src/assets/png/logo.png)
 Welcome to my GitHub portfolio! This repository showcases my personal projects, skills, and experiences in Software Engineering. Here, you'll find a collection of my works, ranging from web development, automation, and more.
 
 ## Contact
